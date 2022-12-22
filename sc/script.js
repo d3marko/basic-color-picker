@@ -8,3 +8,5 @@ colorInput.addEventListener('input', () =>{
 
     document.querySelector('h1').style.color = color;
 });
+
+mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
